@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.AdminLTE_Test.TestNGListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.AdminLTE_Test.LoginTest">
+        <methods>
+          <include name="InvalidEmailBlankPassword"/>
+          <include name="testValidEmailValidPassword"/>
+          <include name="BlankLogin"/>
+          <include name="addUser_Form_Fill"/>
+          <include name="LoginBoxMsg"/>
+          <include name="test_Background_Color_User_Registration"/>
+          <include name="EmailErrorMsg"/>
+          <include name="LoginLogoDisplayed"/>
+          <include name="test_Background_Color_New_Orders"/>
+          <include name="InvalidEmailValidPassword"/>
+          <include name="printUsersTable"/>
+          <include name="PasswordErrorMsg"/>
+          <include name="PasswordPlaceholderMsg"/>
+          <include name="TestCheckTitle"/>
+          <include name="Chick_AddUser_Button"/>
+          <include name="getCurrentTitle"/>
+          <include name="BlankEmailInvalidPassword"/>
+          <include name="InvalidLogin"/>
+          <include name="ValidEmailInvalidPassword"/>
+          <include name="LoginLogotext"/>
+          <include name="SetUpEnvLogin"/>
+          <include name="copyrightLogo"/>
+          <include name="EmailPlaceholderMsg"/>
+          <include name="test_usersButton"/>
+          <include name="TestTitle"/>
+          <include name="horizontal_Form_Lable"/>
+          <include name="Username_Placeholder"/>
+          <include name="test_Background_Color"/>
+          <include name="CheckUserPanel"/>
+          <include name="test_Background_Color_BounceRate"/>
+          <include name="test_Background_Color_UniqueVisitor"/>
+          <include name="check_AddUser_Lable"/>
+        </methods>
+      </class> <!-- com.AdminLTE_Test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
